@@ -1,46 +1,26 @@
-# Getting Started with Create React App
+# React Testing exercise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ In this exercise I wrote a table component where we can Perform CRUD operations onto a table. The aim here is, whichever the component we wrote, it should cover 100% of tests.
+ 
+ ## Images of app
+ ###### App's Initial View
+ ![image](https://user-images.githubusercontent.com/50438335/115820879-91c64e80-a3b6-11eb-9a23-4ec88dca0557.png)
+ ###### App's view on click of add
+![image](https://user-images.githubusercontent.com/50438335/115820953-b3273a80-a3b6-11eb-8cf9-cf95a41b3733.png)
+###### App's view on click of save
+![image](https://user-images.githubusercontent.com/50438335/115821078-f7b2d600-a3b6-11eb-8742-fc933e1cbf54.png)
+###### App's view on deleting the record
+![image](https://user-images.githubusercontent.com/50438335/115821218-42cce900-a3b7-11eb-9bca-a6e1fef052cb.png)
+###### App's view on edit screen
+![image](https://user-images.githubusercontent.com/50438335/115821345-77d93b80-a3b7-11eb-98fc-06c55dee87c9.png)
+###### App's view after edit
+![image](https://user-images.githubusercontent.com/50438335/115821418-9f300880-a3b7-11eb-9a39-4a739aef2ce9.png)
 
-## Available Scripts
+# Test Results
+![image](https://user-images.githubusercontent.com/50438335/115821501-bf5fc780-a3b7-11eb-8a39-66b51990ff1f.png)
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
