@@ -12,14 +12,17 @@ function App() {
   const [shouldOpenModel, setShouldOpenModel] = useState<boolean>(false);
 
   const onDeleteClick = (e: any) => {
-    const id = e.target.id.split("_")[1];
+    const id =
+      e.target.id.split("_")[1] || e.target.parentElement.id.split("_")[1];
+
     setUserInfo((uInfo) => {
       uInfo.delete(id);
       return new Map(uInfo);
     });
   };
   const onEditClick = (e: any) => {
-    const id = e.target.id.split("_")[1];
+    const id =
+      e.target.id.split("_")[1] || e.target.parentElement.id.split("_")[1];
     setSelectedId(id);
 
     setShouldOpenModel(true);
@@ -38,6 +41,7 @@ function App() {
   };
 
   const onClickXMark = () => {
+    setSelectedId("");
     setShouldOpenModel(false);
   };
 

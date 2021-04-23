@@ -68,7 +68,7 @@ export const TableComponent = (props: ITableInputProps) => {
                     id={`delete_${id}`}
                     onClick={props.onDeleteClick}
                   >
-                    <Delete />
+                    <Delete id={`delete_${id}`} />
                   </IconButton>
                   <IconButton
                     color="primary"
@@ -76,7 +76,7 @@ export const TableComponent = (props: ITableInputProps) => {
                     id={`edit_${id}`}
                     onClick={props.onEditClick}
                   >
-                    <Edit />
+                    <Edit id={`edit_${id}`} />
                   </IconButton>
                 </StyledTableRow>
               ))}
